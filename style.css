@@ -1,0 +1,91 @@
+/*setu up*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo 2'
+}
+body {
+  background-image: url('../img/background.jpg');
+  background-position: top 20% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*assets*/
+
+.container {
+  margin: auto;
+  width: 1200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 35px;
+  border-radius: 20px;
+  padding: 70px;
+}
+/*Global Style*/
+.testa {
+ text-align: center;
+}
+
+#logo {
+width: 200px;
+}
+
+div > h1 {
+  color: rgb(113, 208, 19);
+}
+
+section > div {
+  padding-top: 30px;
+}
+
+button {
+  padding: 3px;
+  border-radius: 6px;
+}
+
+hr {
+  margin-top: 30px;
+}
+
+.navigazione {
+  border: 1px solid black;
+  background-color: rgb(113, 208, 19);
+  padding: 10px;
+  text-align: center;
+}
+
+.withe {
+  color: rgb(255, 255, 255);
+}
+
+.nome-monopattino {
+  display: inline-block;
+}
+.carica {
+  height: 25px;
+  border-radius: 5px;
+}
+.media {
+  width: 200px;
+  background-color: rgb(215, 175, 0);
+}
+.alta {
+  width: 400px;
+  background-color: rgb(72, 126, 0);
+}
+.bassa {
+  width: 100px;
+  background-color: rgb(122, 4, 2);
+}
+.via:before {
+  content: ' \21A6'
+}
+
+.Tsfonno {
+  width: 50px;
+  height: 50px;
+}
+
+.firma {
+  text-align: center;
+}
